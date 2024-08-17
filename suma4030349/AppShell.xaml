@@ -5,10 +5,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:suma4030349"
     Shell.FlyoutBehavior="Disabled"
-    Title="suma4030349">
+    Title="suma">
 
     <ShellContent
-        Title="Home"
+        Title="Suma"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
