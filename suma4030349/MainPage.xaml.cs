@@ -17,6 +17,15 @@
         {
             if (_editResultadoId == 0)
             {
+
+                int N1 = Convert.ToInt32(Entryprimernumero.Text);
+                int N2 = Convert.ToInt32(Entrysegundonumero.Text);
+                int resultado = N1 + N2;
+
+
+                // Mostrar el resultado en el label
+                labelresultado.Text = resultado.ToString();
+
                 //agrega cliente
                 await _dbService.Create(new Resultado
                 {
@@ -27,6 +36,14 @@
             }
             else
             {
+                int N1 = Convert.ToInt32(Entryprimernumero.Text);
+                int N2 = Convert.ToInt32(Entrysegundonumero.Text);
+                int resultado = N1 + N2;
+
+
+                // Mostrar el resultado en el label
+                labelresultado.Text = resultado.ToString();
+
                 //Edita cliente
                 await _dbService.Update(new Resultado
                 {
