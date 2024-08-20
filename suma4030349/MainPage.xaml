@@ -21,7 +21,7 @@
                        FontSize="24"
                        HorizontalOptions="Center"/>
             
-            <Button x:Name="sumarBtn" Text="Click me" Clicked="sumarBtn_Clicked" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White"/>
+            <Button x:Name="sumarBtn" Text="Ver suma" Clicked="sumarBtn_Clicked" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White"/>
         
             <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
                 <ListView.ItemTemplate>
